@@ -1,0 +1,89 @@
+header img {
+    display: block;
+    width: 185px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 55px;
+}
+
+body {
+    background-color: rgb(77, 184, 255);
+    margin: 10px;
+    margin-top: 80px;
+    padding: 40px;
+    font-family: "Woodchuck",sans-serif;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+header {
+    background-color: rgb(196, 25, 68);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    float: right;
+}
+
+header * {
+    display: inline;
+}
+
+header ul {
+    list-style-position:outside;
+    padding: 30;
+}
+
+header li {
+    float: left;
+}
+
+li a:hover {
+    background-color: rgb(255, 220, 65);
+    color: rgb(255, 38, 92);
+}
+
+
+header li a {
+    display: block;
+    text-align: left;
+    margin: 75px;
+    color: rgb(255, 220, 65);
+    text-decoration: none;
+}
+
+section img {
+    width: 400;
+    height: 400;
+    margin-inline: 80px;
+
+}
+
+h1 {
+    font-size: 80;
+    color: rgb(255, 38, 92);
+}
+
+p {
+    text-align: left;
+    margin-bottom: 85px;
+    font-size: 30;
+}
+
+section {
+    text-align: center;
+    padding: 0;
+    font-size: large;
+}
+
+footer {
+    bottom: 20;
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+}
